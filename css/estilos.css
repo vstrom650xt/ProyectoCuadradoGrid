@@ -1,0 +1,12 @@
+/* Estilos CSS */
+.padre {
+    grid-template-areas:
+    
+    "cr1" "" "" ""
+
+    
+    ;
+
+    } 
+
+    //76
