@@ -1,12 +1,93 @@
 /* Estilos CSS */
 .padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* Tres columnas */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* Tres filas */
+    width: 400px;
+    /* Ancho total del contenedor */
+    height: 400px;
+    /* Alto total del contenedor */
+    border: solid 3px black;
     grid-template-areas:
-    
-    "cr1" "" "" ""
-
-    
+        "cr1  cr2 cr3 cr4"
+        "cr1  cr5  cr5  cr5"
+        "cr1  cr6  cr7  cr8"
+        "cr9  cr10  cr10   cr11"
     ;
 
-    } 
+}
 
-    //76
+.cu {
+    border: solid 3px black;
+
+}
+
+.cr1 {
+    background-color: #b51111;
+    grid-area: cr1;
+
+}
+
+.cr2 {
+    background-color: #db9034;
+    grid-area: cr2;
+
+}
+
+.cr3 {
+    background-color: #34cadb;
+    grid-area: cr3;
+
+}
+
+.cr4 {
+    background-color: #dbc834;
+    grid-area: cr4;
+
+}
+
+
+
+.cr5 {
+    background-color: #db34ac;
+    grid-area: cr5;
+
+}
+
+
+
+.cr6 {
+    background-color: #34cadb;
+    grid-area: cr6;
+
+}
+
+.cr7 {
+    background-color: #db9034;
+    grid-area: cr7;
+
+}
+
+.cr8 {
+    background-color: #ea74c0a3;
+    grid-area: cr8;
+
+}
+
+.cr9 {
+    background-color: #18570aa3;
+    grid-area: cr9;
+
+}
+.cr10 {
+    background-color: #7aea74a3;
+    grid-area: cr10;
+
+}
+.cr11 {
+    background-color: #dd5216a3;
+    grid-area: cr11;
+
+}
